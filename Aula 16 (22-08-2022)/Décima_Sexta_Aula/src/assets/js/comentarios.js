@@ -1,2 +1,6 @@
 // Comentário de um única linha.
-var nome = "Raphael";
+/*
+var nome = "Erisvan";
+
+console.log(nome);
+*/
