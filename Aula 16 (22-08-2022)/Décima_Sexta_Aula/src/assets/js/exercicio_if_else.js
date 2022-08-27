@@ -10,6 +10,8 @@ console.log(`A sua media e ${media}`)
 
 if (media >= 7){
     console.log(`Aprovado!\n`)
+} else if((media >= 5) && (media < 7)){
+    console.log(`Recuperação!\n`)
 } else {
     console.log(`Reprovado!\n`)
 }
