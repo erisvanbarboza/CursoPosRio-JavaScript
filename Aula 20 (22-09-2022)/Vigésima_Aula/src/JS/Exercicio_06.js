@@ -12,6 +12,4 @@ function inverterNumeros(numeros){
     console.log(n3, n2, n1);
 }
 
-console.log(inverterNumeros(numeros));
-
-
+inverterNumeros(numeros);

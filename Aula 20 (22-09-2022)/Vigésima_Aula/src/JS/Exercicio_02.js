@@ -22,4 +22,4 @@ function accessarFilaPreferencial(idade, sexo, deficiencia, gestante){
     }
 }
 
-console.log(accessarFilaPreferencial(idade, sexo, deficiencia, gestante));
+accessarFilaPreferencial(idade, sexo, deficiencia, gestante);

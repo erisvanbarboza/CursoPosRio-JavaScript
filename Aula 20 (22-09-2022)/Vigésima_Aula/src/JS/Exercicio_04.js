@@ -10,4 +10,4 @@ function calcular(n) {
     }
 }
 
-console.log(calcular(n));
+calcular(n);
