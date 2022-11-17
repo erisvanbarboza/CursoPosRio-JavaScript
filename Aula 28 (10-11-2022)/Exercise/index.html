@@ -16,15 +16,29 @@
     <main>
 
         <div class="container">
-            <div class="texto"><input type="text"></div> 
-        
-            <div class="botao"><button>ADICIONAR</button></div>
+            <div class="texto" >
+                <label for="itemLista">Adicione um item:</label>
+                <input id="itemLista" type="text" name="itemLista">
+            </div> 
+
+            <button onclick="criarLista()">ADICIONAR</button>
+        </div>
+       
+        <div id="resultado">
+            <ul></ul>
         </div>
         
     </main>
 
     <footer>
-
+        <p>
+            Erisvan Barboza &copy Copyright
+        </p>
+        <p>
+            All Rights Reserved
+        </p>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
